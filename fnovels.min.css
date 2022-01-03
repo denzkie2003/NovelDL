@@ -1,1 +1,9 @@
-
+@import url('http://fonts.cdnfonts.com/css/poppins?styles=20394');
+:root{
+  --Poppins: "Poppins",sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
