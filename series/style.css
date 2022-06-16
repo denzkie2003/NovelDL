@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/even-badder-mofo');
+:root{
+  --poppins: "Poppins", sans-serif;
+  --badder: 'Even Badder Mofo', sans-serif;
+}
+body {
+    font-size: 13pt;
+    padding: 0;
+    font-family: var(--poppins);
+    background: linear-gradient(to bottom right, red,black);
+    background-attachment: fixed;
+    color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: var(--poppins);
+  margin:0;
+}
+.info{
+  padding: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.info h4{
+  padding: 0;
+  color: #fff;
+  margin: 0
+}
+.dl li{
+  border: none;
+}
