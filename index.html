@@ -1,14 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-    <title>FNovels - Free Light Novels</title>
-    <!-- Frameworks -->
-    <link rel="stylesheet" href="bootstrap@5.0.0-alpha2.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="fnovels.min.css" />
-  </head>
-  <body>
-    <p>Hello</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Facebook Meta Tag -->
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="NovelBooks" />
+  <meta name="description" content="NovelBooks is a free platform to download Novels for free." />
+  <meta name="og:image" content="https://www.noveltime.ml/images/logo.jpg" />
+  <meta name="facebook:image" content="https://www.noveltime.ml/images/logo.jpg" />
+  <title>Mega Novel</title>
+  <!-- Web Icon -->
+  <!--<link rel="icon" href="https://www.noveltime.ml/images/android-chrome-512x512.png" type="image/x-icon" size="512x512">-->
+  <!-- HTML -->
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #mySidebar{display:none;}
+  </style>
+</head>
+
+<body>
+  
+    <div class="main-container">
+      
+      <div class="w3-container w3-black w3-row">
+        <div class="w3-col" style="width: 87%;">
+          <h3 style="font-family: var(--badder)"><strong>NovelBooks</strong></h3>
+        </div>
+        <div class="w3-rest">
+          <img src="icons8-menu-48.png" alt="Menu Icon" style="width: 50px;" onclick="w3_open()">
+        </div>
+      </div>
+      <!--Sidebar-->
+      <div class="w3-sidebar w3-black w3-bar-block" style="width:40%;" id="mySidebar">
+        <a href="" class="w3-bar-item w3-button" style="text-align:right;font-size: 15pt" onclick="w3_close()">&times;</a>
+        <a href="" class="w3-bar-item w3-button">About Us</a>
+        <a href="" class="w3-bar-item w3-button">Novel List</a>
+        <a href="" class="w3-bar-item w3-button">Follow Us</a>
+      </div>
+      <!-- content-->
+      <div class="content w3-container">
+        <div class="w3-container w3-border item-container" id="items">
+          <img src="https://cdn.novelupdates.com/images/2019/06/71sZwvGyjoL.jpg" alt="Cover" width="100%" height="auto">
+          <h5><strong>My Stepsister is My Ex</strong></h5>
+          <p><a href="series/My Stepsister is My Ex.html">&raquo;You can now download this novel&laquo;</a></p>
+          <span id="datePost"><small><i>Posted on June 17,2022</i></small></span>
+        </div>
+      </div>
+      <div class="content w3-container">
+        <div class="w3-container w3-border item-container" id="items">
+          <img src="https://cdn.novelupdates.com/images/2016/07/cover.jpeg" alt="Cover" width="100%" height="auto">
+          <h5><strong>Wandering Witch: The Journey of Elaina</strong></h5>
+          <p><a href="series/Majo-No-Tabitabi-Light-Novel.html">&raquo;You can now download this novel&laquo;</a></p>
+          <span id="datePost"><small><i>Posted on June 16,2022</i></small></span>
+        </div>
+      </div>
+      <hr>
+      <footer class="w3-container">
+        <p style="font-size: 10pt;color:#fff">Disclaimer: We do not owned any of the content provided here. All of it is from another website resources.</p>
+      </footer>
+    </div>
+    
+  <!-- Project -->
+  <script src="main.js"></script>
+  <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+</body>
 </html>
