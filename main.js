@@ -1,5 +1,29 @@
 let novels = [
    {
+     title: "Berserk of Gluttony",
+     sourceLink: "series/Berserk-Of-Gluttony.html"
+   },
+   {
+     title: "86",
+     sourceLink: "series/Eighty-Six.html"
+   },
+   {
+     title: "Kono Subarashii Sekai ni Bakuen o!",
+     sourceLink: "series/Kono-Subarashii-Sekai-ni-Bakuen-O.html"
+   },
+   {
+     title: "A Harem in the Fantasy World Dungeon",
+     sourceLink: "series/A-Harem-In-A-Fantasy-World-Dungeon.html"
+   },
+   {
+     title: "Date A Live Fragment: Date A Bullet",
+     sourceLink: "series/Date-A-Bullet.html"
+   },
+   {
+     title: "Date A Live",
+     sourceLink: "series/Date-A-Live.html"
+   },
+   {
      title: "Overlord",
      sourceLink: "series/overlord.html"
    },
