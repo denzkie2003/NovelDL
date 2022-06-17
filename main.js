@@ -1,7 +1,11 @@
 let novels = [
    {
+     title: "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
+     sourceLink: "series/Reborn-To-Master-the-Blade-from-Hero-King-to-Extraordinary-Squire.html"
+   },
+   {
      title: "Berserk of Gluttony",
-     sourceLink: "series/Berserk-Of-Gluttony.html"
+     sourceLink: "series/Berserk-Of-Gluttonh.html"
    },
    {
      title: "86",
