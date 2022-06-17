@@ -1,5 +1,17 @@
 let novels = [
    {
+     title: "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons",
+     sourceLink: "series/villainess-reloaded-blowing-away-bad-ends-with-modern-weapons.html"
+   },
+   {
+     title: "Welcome to Japan Ms. Elf!",
+     sourceLink: "series/Welcome-to-Japan-Ms-Elf.html"
+   },
+   {
+     title: "I’ll Live My Second Life!",
+     sourceLink: "series/ill-live-my-second-life.html"
+   },
+   {
      title: "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
      sourceLink: "series/Reborn-To-Master-the-Blade-from-Hero-King-to-Extraordinary-Squire.html"
    },
