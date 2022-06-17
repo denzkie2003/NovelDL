@@ -1,5 +1,9 @@
 let novels = [
    {
+     title: "Overlord",
+     sourceLink: "series/overlord.html"
+   },
+   {
      title: "Death March kara Hajimaru Isekai Kyusoukyoku",
      sourceLink: "series/Death-March-kara-Hajimaru-Isekai-Kyusoukyoku.html"
    },
