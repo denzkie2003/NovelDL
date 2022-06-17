@@ -1,16 +1,29 @@
-let list2 = document.getElementById("list");
-for (let x in novel) {
+let novels = [
+   {
+     title: "Death March kara Hajimaru Isekai Kyusoukyoku",
+     sourceLink: "series/Death-March-kara-Hajimaru-Isekai-Kyusoukyoku.html"
+   },
+   {
+     title: "My Stepsister is my Ex",
+     sourceLink: "series/My Stepsister is My Ex.html"
+   },
+   {
+     title: "Majo no Tabitabi",
+     sourceLink: "series/Majo-No-Tabitabi-Light-Novel.html"
+   },
+  ];
+
+let list = document.getElementById("list");
+for (let x in novels) {
   let li = document.createElement("li");
-  li.setAttribute("class", "nav-item");
   let a = document.createElement("a");
-  a.setAttribute("class", "nav-link");
   a.setAttribute("href", "");
 
-  a.innerHTML = novel[x].title;
-  a.href = novel[x].sourceLink;
+  a.innerHTML = novels[x].title;
+  a.href = novels[x].sourceLink;
 
   li.append(a);
-  list2.append(li);
+  list.append(li);
 }
 
 $(document).ready(function() {
